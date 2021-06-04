@@ -14,6 +14,7 @@ Nama Anggota Kelompok : (Nama_NIM_Kelas)
 10. Siti Hamidah_26050119120018_B
 11. Muhammad Fakhri_26050119130043_B
 
+
   Repository ini dibuat untuk memenuhi tugas akhir praktikum Metode Numerik tahun ajaran 2020/2021, didalamnya terdapat aplikasi yang dapat digunakan untuk menyelesaikan permasalahan secara metode numerikal. Cara untuk menjalankan aplikasi penyelesaian secara metode numerikal ini hanya tinggal run dan memasukkan (input) angka-angka yang diperlukan, agar dapat menampilkan hasil. Perlu diketahui bahwa Library pada Python merupakan sebutan untuk kode program tambahan yang digunakan untuk kebutuhan tertentu. Modul adalah objek Python dengan atribut yang diberi nama yang bisa dibind dan dijadikan referensi, dimana di dalamnya mendefinisikan fungsi, kelas, dan variabel. Aplikasi penyelesaian numeris pada repository ini dibuat dengan menggunakan bahasa Python dengan library Matplotlib, Numpy, Scipy, modul Sys dan masih banyak lagi komponen di dalamnya. Pada aplikasi ini dibuat suatu penyelesaian numeris dalam bentuk code bahasa Python mulai dari modul 2 hingga modul 5 praktikum dengan setiap metodenya menggunakan fungsi (def). Fungsi (def) pada Python adalah kumpulan perintah atau baris kode yang dikelompokkan menjadi satu kesatuan untuk kemudian bisa dipanggil atau digunakan berkali-kali, jadi fungsi (def) ini akan membuat kode program menjadi lebih terstruktur dan re-usable.
 
 Berikut adalah rincian metode (modul 2 sampai modul 5) yang telah kami susun dalam repository Tugas Akhir ini:
