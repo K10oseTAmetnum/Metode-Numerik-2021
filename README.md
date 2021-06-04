@@ -16,6 +16,7 @@ Nama Anggota Kelompok : (Nama_NIM_Kelas)
   Repository ini dibuat untuk memenuhi tugas akhir praktikum Metode Numerik tahun ajaran 2020/2021, didalamnya terdapat aplikasi yang dapat digunakan untuk menyelesaikan permasalahan secara metode numerikal. Cara untuk menjalankan aplikasi penyelesaian secara metode numerikal ini hanya tinggal run dan memasukkan (input) angka-angka yang diperlukan, agar dapat menampilkan hasil. Perlu diketahui bahwa Library pada Python merupakan sebutan untuk kode program tambahan yang digunakan untuk kebutuhan tertentu. Modul adalah objek Python dengan atribut yang diberi nama yang bisa dibind dan dijadikan referensi, dimana di dalamnya mendefinisikan fungsi, kelas, dan variabel. Aplikasi penyelesaian numeris pada repository ini dibuat dengan menggunakan bahasa Python dengan library Matplotlib, Numpy, Scipy, modul Sys dan masih banyak lagi komponen di dalamnya. Pada aplikasi ini dibuat suatu penyelesaian numeris dalam bentuk code bahasa Python mulai dari modul 2 hingga modul 5 praktikum dengan setiap metodenya menggunakan fungsi (def). Fungsi (def) pada Python adalah kumpulan perintah atau baris kode yang dikelompokkan menjadi satu kesatuan untuk kemudian bisa dipanggil atau digunakan berkali-kali, jadi fungsi (def) ini akan membuat kode program menjadi lebih terstruktur dan re-usable.
 
 Berikut adalah rincian metode (modul 2 sampai modul 5) yang telah kami susun dalam repository Tugas Akhir ini:
+	
 	MODUL 2: Akar-Akar Persamaan
 	1. Metode Setengah Interval
 	2. Metode Interpolasi Linier
@@ -94,7 +95,8 @@ Berikut adalah rincian metode (modul 2 sampai modul 5) yang telah kami susun dal
     Metode iterasi Jacobi digunakan untuk menyelesaikan persamaan linier yang proporsi koefisien nol nya besar. Iterasi dapat diartikan sebagai suatu proses atau metode yang digunakan secara berulang-ulang (pengulangan) dalam menyelesaikan suatu permasalahan matematika. Kelebihan dari metode ini adalah langkah penyelesaiannya yang sederhana, sedangkan kelemahannya adalah proses iterasinya lambat. Terutama untuk persamaan linear serentak dengan ordo tinggi dan hanya dapat digunakan menyelesaikan persamaan linear serentak.
   
 # Tentang MODUL 4: Integrasi Numerik
-    Integrasi numerik merupakan cara alternatif untuk mengintegrasikan suatu persamaan, disamping integrasi analitis. Integrasi analitis terkadang merupakan cara integrasi yang sulit, khususnya pada persamaan-persamaan yang kompleks dan rumit. Dalam integrasi numerikal untuk penyelesaian berbagai permasalah numeris di sini dapat menggunakan empat buah metode yaitu antara lain:
+    
+   Integrasi numerik merupakan cara alternatif untuk mengintegrasikan suatu persamaan, disamping integrasi analitis. Integrasi analitis terkadang merupakan cara integrasi yang sulit, khususnya pada persamaan-persamaan yang kompleks dan rumit. Dalam integrasi numerikal untuk penyelesaian berbagai permasalah numeris di sini dapat menggunakan empat buah metode yaitu antara lain:
 
 1. Metode Trapesium Banyak Pias
   
@@ -113,7 +115,8 @@ Berikut adalah rincian metode (modul 2 sampai modul 5) yang telah kami susun dal
     Metode Simpson 3/8 diturunkan dengan menggunakan persamaan polinomial order tiga yang melalui empat titik Metode Simpson 1/3 biasanya lebih disukai karena mencapai ketelitian order tiga dan hanya memerlukan tiga titik, dibandingkan metode Simpson 3/8 yang membutuhkan empat titik. Dalam pemakaian banyak pias, metode Simpson 1/3 hanya berlaku untuk jumlah pias genap. Apabila dikehendaki jumlah pias ganjil, maka dapat digunakan metode trapesium. Tetapi metode ini tidak begitu baik karena adanya kesalahan yang cukup besar. Untuk itu kedua metode dapat digabung, yaitu sejumlah genap pias digunakan metode Simpson 1/3 sedangkan 3 pias sisanya digunakan metodeSimpson 3/8.
   
 # Tentang MODUL 5: Persamaan Diferensial Biasa
-    Persamaan diferensial adalah persamaan yang memuat turunan satu atau beberapa fungsi yang tak diketahui. Persamaan diferensial biasa hanya mengandung satu variabel atau satu peubah bebas. Metode satu langkah persamaan diferensial biasa ilaha metode euler maupun metode heun.
+   
+   Persamaan diferensial adalah persamaan yang memuat turunan satu atau beberapa fungsi yang tak diketahui. Persamaan diferensial biasa hanya mengandung satu variabel atau satu peubah bebas. Metode satu langkah persamaan diferensial biasa ilaha metode euler maupun metode heun.
 
 1. Metode Euler 
     
